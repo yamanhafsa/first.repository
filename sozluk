@@ -1,0 +1,17 @@
+meme_dict = {
+            "BTW": "Bu Arada",
+            "IDK": "Bilmiyorum",
+            "SMH": "Başımı Sallıyorum, onay vermeyen bir anlama gelir",
+            "HRU": "Nasılsın?",
+            "HBU": "ya sen?",
+            "MB": "Benim hatam",
+            "RN": "şuanda",
+            "VC": "sesli konuşma",
+            }
+
+for i in range(5):
+    word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("bu kelime sözlükte yok")
