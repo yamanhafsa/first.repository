@@ -1,0 +1,10 @@
+import random
+
+karakter = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+soru = int(input("şifreniz kaç karakterli olacak?"))
+sifre = ""
+for i in range(soru):
+    sifre = sifre + random.choice(karakter)
+
+print(sifre)
